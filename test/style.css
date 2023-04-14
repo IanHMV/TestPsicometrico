@@ -304,6 +304,7 @@ section{
         align-items: center;
         justify-content: center;
         text-align: center;
+        margin: 0 40px 0 0;
     }
     /* .footer .footer-item ul li{
         display: flex;
