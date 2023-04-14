@@ -117,7 +117,7 @@ section{
     border-radius: 30px;
 }
 
-.contenedor-informacion .texto-consiste {
+.contenedor-informacion .texto-informacion {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,7 +125,7 @@ section{
     padding: 40px;
 }
 
-.contenedor-informacion .texto-consiste p{
+.contenedor-informacion .texto-informacion p{
     text-align: justify;
     font-family: 'Noto Serif', serif;
     font-size: 25px;
@@ -242,15 +242,15 @@ section{
         height: auto;
     }
 
-    .contenedor-informacion .texto-consiste {
-        padding: 20px 150px 0px 150px;
+    .contenedor-informacion .texto-informacion {
+        padding: 20px 120px 0px 120px;
     }
 
     .contenedor-informacion h2{
         text-align: center;
     }
     
-    .contenedor-informacion .texto-consiste p{
+    .contenedor-informacion .texto-informacion p{
         font-size: 20px;
     }
 
@@ -294,8 +294,15 @@ section{
         font-size: 40px;
     }
 
-    .contenedor-informacion .texto-consiste {
-        padding: 20px 70px 0px 70px;
+    .contenedor-informacion .texto-informacion {
+        padding: 20px 50px 0px 50px;
+    }
+
+    .footer .footer-item ul p{
+        text-align: center;
+    }
+    .footer .footer-item ul li{
+        text-align: center;
     }
 
     .footer .mapa-conteiner {
@@ -317,14 +324,21 @@ section{
     .conocenos p{
         margin: 30px 50px;
     }
+
+    .contenedor-informacion .texto-informacion {
+        padding: 20px 45px 0px 45px;
+    }
+    .contenedor-informacion .texto-informacion p{
+        font-size: 15px;
+    }
 }
 
 @media screen  and (max-width: 400px){
 
-    .contenedor-informacion .texto-consiste {
+    .contenedor-informacion .texto-informacion {
         padding: 20px 30px 0px 30px;
     }
-    .contenedor-informacion .texto-consiste p{
+    .contenedor-informacion .texto-informacion p{
         font-size: 12px;
     }
 }
