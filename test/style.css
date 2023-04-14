@@ -298,12 +298,19 @@ section{
         padding: 20px 50px 0px 50px;
     }
 
-    .footer .footer-item ul p{
+    .footer .footer-item ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
     }
-    .footer .footer-item ul li{
-        text-align: center;
-    }
+    /* .footer .footer-item ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
 
     .footer .mapa-conteiner {
         display: flex;
