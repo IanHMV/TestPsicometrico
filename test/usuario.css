@@ -42,9 +42,11 @@ section .opciones{
     width: 100%;
     display: flex;
     justify-content: space-between !important;
+    
 }
 
 section .opciones li a{
+    border: 2px solid #fff;
     color: #fff;
 }
 
