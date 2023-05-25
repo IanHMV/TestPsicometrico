@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resgistro</title>
+    <!-- Fontsize -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Noto+Serif&family=Righteous&display=swap" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" href="tecnologico-logo.png">
     <!-- Boostrap -->
@@ -39,7 +43,6 @@
             <div class="col-12">
                 <label for="validationDefaultUsername" class="form-label">Correo</label>
                 <div class="input-group">
-                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
                     <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
                         required>
                 </div>
@@ -54,7 +57,6 @@
                 </div>
                 <div class="col-12">
                     <span id="passwordHelpInline" class="form-text">
-                        Must be 8-20 characters long.
                     </span>
                 </div>
             </div>
@@ -75,7 +77,19 @@
             <!-- Carrera -->
             <div class="col-12">
                 <label for="validationDefault01" class="form-label">Carrera</label>
-                <input type="text" class="form-control" id="validationDefault01" value="" required>
+                <select class="form-select " aria-label="Default select example">
+                    <option selected>Carreras...</option>
+                    <option value="1">Arquitectura</option>
+                    <option value="2">Contador Público</option>
+                    <option value="3">Ingeniería Ambiental</option>
+                    <option value="4">Ingeniería Bioquímica</option>
+                    <option value="5">Ingeniería en Gestión Empresarial</option>
+                    <option value="6">Ingeniería Industrial</option>
+                    <option value="7">Ingeniería Informática</option>
+                    <option value="8">Ingeniería Mecatrónica</option>
+                    <option value="9">Ingeniería en Sistemas Computacionales</option>
+                    <option value="10">Licenciatura en Administración</option>
+                  </select>
             </div>
             <!-- Fecha -->
             <div class="col-12">
