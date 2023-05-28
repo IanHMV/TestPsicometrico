@@ -20,6 +20,7 @@
 
 }
 
+
 section{
     display: flex;
     flex-direction: column;
@@ -288,6 +289,20 @@ section{
 }
 
 @media screen  and (max-width: 767px) {
+    .navbar .container-fluid .navbar-collapse .nav-opc , .navbar .container-fluid .navbar-collapse .nav-imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar .container-fluid .navbar-collapse .nav-opc .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 
     .carousel{
         width: 100%;
