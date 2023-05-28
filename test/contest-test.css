@@ -1,0 +1,105 @@
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Titulo */
+
+.titulo{
+    color: #fff;
+    background-color: rgba(27, 57, 106, 0.98);
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+
+/* Contestar Test */
+section .card{
+    margin: 10px 0 10px 0;
+}
+
+
+
+section .card .row .informacion a{
+    margin: 0px 10px;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: rgba(27, 57, 106, 0.98);
+}
+
+.footer ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    color: #B7B7B7;
+}
+
+.footer .mapa-conteiner {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .copyrigth{
+    text-align: center;
+}
+
+/* Diseno responsivo */
+@media screen  and (max-width: 1300px) {
+    .footer .footer-item iframe{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+
+@media screen  and (max-width: 767px) {
+
+    .footer .footer-item ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 40px 0 0;
+    }
+    /* .footer .footer-item ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .footer .mapa-conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 5px;
+    }
+    
+    .footer .footer-item iframe{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+
