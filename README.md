@@ -3,7 +3,9 @@
 Pagina web de Para test psicometricos. 
 Lenguaejes utilizados HTML y CSS
 
-Framework: Boostrap
+Framework: Boostrap.
+
+El enlace para que lo puedan ver sin necesidad de descargarlo: https://test-psicometrico.netlify.app/
 
 Pagina Principal:
 [![Test-Psicometrico.jpg](https://i.postimg.cc/pL5Wn2L8/Test-Psicometrico.jpg)](https://postimg.cc/4YZkDRtN)
