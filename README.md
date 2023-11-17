@@ -1,9 +1,12 @@
 # TestPsicometrico
 
 Pagina web de Para test psicometricos. 
-Lenguaejes utilizados HTML y CSS
+
+Tecnologias utilizados HTML y CSS
 
 Framework: Boostrap.
+
+Responsive!!!
 
 El enlace para que lo puedan ver sin necesidad de descargarlo: https://test-psicometrico.netlify.app/
 
